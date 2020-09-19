@@ -198,9 +198,7 @@ const MainNavigator = createDrawerNavigator(
         contentComponent: CustomDrawerContentComponent
     }
 );
-
 class Main extends Component {
-
     componentDidMount() {
         this.props.fetchCampsites();
         this.props.fetchComments();
